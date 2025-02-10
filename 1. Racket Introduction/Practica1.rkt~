@@ -1,0 +1,19 @@
+#lang racket  ; Especifica el lenguaje Racket
+
+#|
+Team members:
+- Reyes Medina Santiago Iván - 320308598
+- López Espinoza Ashley Yael - 319129391
+|#
+
+; Función que verifica si la cadena recibida tiene paréntesis balanceados
+(define (parentesis-balanceados? cadena)
+  (displayln (string-append "Verificando cadena: " cadena))
+  (define (aux cadena contadorA contadorB)
+    (cond
+      []))
+  
+)
+
+(parentesis-balanceados? "sdf")
+
